@@ -1,4 +1,4 @@
-import random
+import random #sirve para generar valores aleatorios 
 
 def imprimir_tablero(tablero):
     # Imprime el tablero de juego en su estado actual.
@@ -105,6 +105,13 @@ def menu():
     else:
         print("Opción inválida. Por favor, seleccione una opción válida.")  # Mensaje de error para opciones inválidas.
         menu()  # Vuelve a mostrar el menú para seleccionar una opción válida.
+menu()  # Llama a la función del menú.
+    
+    #estudiar su fuinsion y su significado:
 
-if __name__ == "__main__":
-    menu()  # Llama a la función del menú si el script se ejecuta como programa principal.
+    #all siesque todo esta funcionando funsiona y sino no funciona 
+
+    #if all([tablero[fila][columna] == jugador for fila in range(3)]):
+    #revisa las files para ver si todos los sinvolos son del jugador 
+
+   
